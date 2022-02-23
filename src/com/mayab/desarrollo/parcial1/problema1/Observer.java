@@ -1,5 +1,5 @@
 package com.mayab.desarrollo.parcial1.problema1;
 
-public class Observer {
-
+public interface Observer {
+	 public void update(String compraName, String compraValue);
 }
